@@ -1,0 +1,21 @@
+{
+  "port": 9000,
+  "protocol": "http",
+  "database": {
+    "host": "mongodb+srv",
+    "default_db_name": "my_product",
+    "authentication": true,
+    "user": "admin",
+    "pass": "vQPhBGksxssV7Sm8",
+    "auth_source": "admin",
+    "mongo_options": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true,
+      "useFindAndModify": true
+    }
+  },
+  "image": {
+    "protocol": "http",
+    "host": "127.0.0.1"
+  }
+}
